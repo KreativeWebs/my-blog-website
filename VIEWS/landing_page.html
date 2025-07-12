@@ -6,6 +6,7 @@
   <title>Genz & Tech Daily</title>
   <link rel="shortcut icon" href="/Images/genz logo-favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" />
+
   <link rel="preload" href="OpenSans-BoldItalic.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="OpenSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="OpenSans-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
@@ -13,7 +14,15 @@
   <link rel="preload" href="OpenSans-Medium.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="OpenSans-ExtraBoldItalic.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="OpenSans-MediumItalic.woff2" as="font" type="font/woff2" crossorigin>
+
+  <!-- Preload my images -->
+   <link rel="preload" as="image" href="/Images/hero image 1.png">
+  <link rel="preload" as="image" href="/Images/hero image 2.jpg">
+  <link rel="preload" as="image" href="/Images/hero image 3.jpg">
+  <link rel="preload" as="image" href="/Images/hero image 4.jpg">
+
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
@@ -36,17 +45,83 @@
     </div>
   </nav>
 
+  
   <!-- HERO SECTION -->
-  <section class="hero-section">
-    <img src="/Images/3d-rendering-hexagonal-texture-background.jpg" alt="Hero Image" />
-    <div class="hero-overlay"></div>
-    <div class="hero-text text-center">
-      <h1 class="">Design</h1>
-      <p class="lead">Your daily source for design, code, and digital lifestyle.</p>
-      <button type="button" class="btn hero-button">Start Reading</button>
+  <section class="hero-slider">
+    <div class="slide active">
+      <div class="hero-socials">
+        <span>Follow us:</span>
+        <a href="#"><img src="/Images/facebook icon.png" alt="Facebook"></a>
+        <a href="#"><img src="/Images/X icon.png" alt="Twitter"></a>
+        <a href="#"><img src="/Images/instagram icon.png" alt="Instagram"></a>
+        <a href="#"><img src="/Images/youtube icon.png" alt="Youtube"></a>
+      </div>
+      <img src="/Images/hero image 1.png" alt="Intro">
+      <div class="overlay"></div>
+      <div class="hero-caption">
+        <h1>Genz & Tech Daily</h1>
+        <p>"Welcome to Genz & Tech Daily, your daily dose of design, code, and digital culture. <br>Whether you're a creator, coder, or curious mind, you're right at home here."</p>
+        <button type="button" class="btn hero-btn">Start Exploring</button>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="hero-socials">
+        <span>Follow us:</span>
+        <a href="#"><img src="/Images/facebook icon.png" alt="Facebook"></a>
+        <a href="#"><img src="/Images/X icon.png" alt="Twitter"></a>
+        <a href="#"><img src="/Images/instagram icon.png" alt="Instagram"></a>
+        <a href="#"><img src="/Images/youtube icon.png" alt="Youtube"></a>
+      </div>
+      <img src="/Images/hero image 2.jpg" alt="Design">
+      <div class="overlay"></div>
+      <div class="hero-caption">
+        <h1>Design</h1>
+        <p>"Step into the world of bold ideas and visual creativity. <br>At Genz Tech Daily, we explore design that speaks, from stunning graphics to user-first interfaces. <br>Whether you're crafting for pixels or paper, this space fuels your inspiration."</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="hero-socials">
+        <span>Follow us:</span>
+        <a href="#"><img src="/Images/facebook icon.png" alt="Facebook"></a>
+        <a href="#"><img src="/Images/X icon.png" alt="Twitter"></a>
+        <a href="#"><img src="/Images/instagram icon.png" alt="Instagram"></a>
+        <a href="#"><img src="/Images/youtube icon.png" alt="Youtube"></a>
+      </div>
+      <img src="/Images/hero image 3.jpg" alt="Code">
+      <div class="overlay"></div>
+      <div class="hero-caption">
+        <h1>Coding</h1>
+        <p>"Genz Tech Daily dives into the world of code, clean, powerful, and built for the future. <br>Whether you're debugging your first line or deploying your next big idea, we’ve got you covered.".</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="hero-socials">
+        <span>Follow us:</span>
+        <a href="#"><img src="/Images/facebook icon.png" alt="Facebook"></a>
+        <a href="#"><img src="/Images/X icon.png" alt="Twitter"></a>
+        <a href="#"><img src="/Images/instagram icon.png" alt="Instagram"></a>
+        <a href="#"><img src="/Images/youtube icon.png" alt="Youtube"></a>
+      </div>
+      <img src="/Images/hero image 4.jpg" alt="Digital Lifestyle">
+      <div class="overlay"></div>
+      <div class="hero-caption">
+        <h1>Digital Lifestyle</h1>
+        <p>"Life is digital, and so are we. Genz Tech Daily explores how tech shapes the way we live, <br>work, and connect. From smart tools to daily hacks, we bring you the trends that move with the future."</p>
+      </div>
+    </div>
+
+    <div class="slide-controls">
+      <img src="/Images/back arrow.png" alt="Previous" id="prevSlide">
+      <img src="/Images/forward arrow.png" alt="Next" id="nextSlide">
     </div>
     
-  </section>
+</section>
+
+    
+
 
   <!-- BLOG POSTS -->
   <main class="container blog-posts my-5">
@@ -143,6 +218,7 @@
   </footer>
 
   <!-- Scripts -->
+   <script src="view.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"></script>
