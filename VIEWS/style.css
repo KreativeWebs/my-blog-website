@@ -1,41 +1,39 @@
-
 @font-face {
-    font-family: 'Open Sans';
-    src: url('/fonts/OpenSans-Bold.woff2') format('woff2'),
-        url('/fonts/OpenSans-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("/fonts/OpenSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('/fonts/OpenSans-Regular.woff2') format('woff2'),
-        url('/fonts/OpenSans-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("/fonts/OpenSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('/fonts/OpenSans-Medium.woff2') format('woff2'),
-        url('/fonts/OpenSans-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Medium.woff2") format("woff2"),
+    url("/fonts/OpenSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* THE END OF THE FONT STYLES */
 
 body {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 .navbar-brand {
   font-weight: 600;
 }
-
 
 .hero-slider {
   position: relative;
@@ -49,7 +47,7 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 1.5s ease-in-out; 
+  transition: opacity 1.5s ease-in-out;
 }
 
 .slide.active {
@@ -157,9 +155,9 @@ body {
 }
 
 .hero-btn {
-  background-color: transparent;  
-  border: 2px solid #fff;         
-  color: #fff;                    
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
@@ -186,7 +184,7 @@ body {
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 30px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease;
 }
 
@@ -238,7 +236,6 @@ body {
   font-weight: bold;
 }
 
-
 .blog-sidebar .ad-box {
   background: #222;
   padding: 15px;
@@ -283,6 +280,3 @@ h1 {
   color: #888;
   margin-bottom: 5px;
 }
-
-
-  
