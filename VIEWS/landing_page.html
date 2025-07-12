@@ -350,55 +350,187 @@
     </main>
 
     <!-- NEWS CATEGORY -->
-    <main class="container-fluid news-category my-5">
-      <h2 class="mb-4">Latest News</h2>
+    <main class="container news-category my-5">
+      <h1 class="mb-4 news-title">Latest News</h1>
       <div class="row">
-        <!-- Post 1 -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="card h-100">
-            <img class="card-img-top" src="post1.jpg" alt="Post Image" />
+        <!-- News 1 -->
+        <div class="col-lg-8 mb-4">
+          <div class="card news-card">
             <div class="card-body">
-              <h5 class="card-title">How to Design Better UI</h5>
+              <img
+                src="/Images/news-image 1.jpg"
+                alt="Featured post image"
+                class="news-post-thumbnail"
+              />
+              <h5 class="card-title">
+                Apple Unveils macOS Orbis with Integrated AI Features
+              </h5>
+              <div class="news-post-meta">
+                <span class="news-post-topic">Tech News</span>
+                <span class="post-date">July 10, 2025</span>
+              </div>
               <p class="card-text">
-                Learn the fundamentals of UI/UX that can improve your product’s
-                experience...
+                At WWDC 2025, Apple announced macOS Orbis — a major update
+                packed with AI-driven tools designed to improve productivity and
+                personalization. The new version introduces system-wide smart
+                search, on-device summarization, and real-time coding assistance
+                for Xcode.
               </p>
-              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+              <a href="#" class="btn btn-sm news-button">Read More</a>
+            </div>
+          </div>
+
+          <div class="card news-card">
+            <div class="card-body">
+              <img
+                src="/Images/news-image 2.jpg"
+                alt="Featured post image"
+                class="news-post-thumbnail"
+              />
+              <h5 class="card-title">
+                Adobe Adds Live Co-Editing to Illustrator and Photoshop
+              </h5>
+              <div class="news-post-meta">
+                <span class="news-post-topic">Design Industry</span>
+                <span class="post-date">July 10, 2025</span>
+              </div>
+              <p class="card-text">
+                In a long-awaited update, Adobe has rolled out real-time
+                collaboration in Illustrator and Photoshop, allowing multiple
+                designers to work on the same document simultaneously. This
+                game-changing feature mirrors what Figma users have enjoyed for
+                years, and marks a big step in Adobe’s effort to modernize its
+                creative suite. Designers can now chat, edit, and review in real
+                time.
+              </p>
+              <a href="#" class="btn btn-sm news-button">Read More</a>
+            </div>
+          </div>
+
+          <div class="card news-card">
+            <div class="card-body">
+              <img
+                src="/Images/news-image 3.jpg"
+                alt="Featured post image"
+                class="news-post-thumbnail"
+              />
+              <h5 class="card-title">
+                Remote Teams Are Adopting 4-Day Workweeks — And Productivity Is
+                Rising
+              </h5>
+              <div class="news-post-meta">
+                <span class="news-post-topic">Digital Lifestyle</span>
+                <span class="post-date">July 10, 2025</span>
+              </div>
+              <p class="card-text">
+                A recent global survey reveals that over 35% of remote tech
+                companies have switched to a 4-day workweek. The result?
+                Increased productivity, better mental health, and higher
+                employee retention. Experts say that flexible digital-first work
+                culture is no longer a trend — it’s the future. Companies like
+                Notion, Basecamp, and Zapier are leading the shift.
+              </p>
+              <a href="#" class="btn btn-sm news-button">Read More</a>
             </div>
           </div>
         </div>
 
-        <!-- Post 2 -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="card h-100">
-            <img class="card-img-top" src="post2.jpg" alt="Post Image" />
-            <div class="card-body">
-              <h5 class="card-title">Top JavaScript Tricks</h5>
-              <p class="card-text">
-                Boost your frontend skills with these smart and practical
-                JavaScript tips...
-              </p>
-              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+        <aside class="col-lg-4 news-sidebar">
+          <!-- Trending Section -->
+          <div class="trending-box">
+            <h4>Trending</h4>
+            <div class="trending-item">
+              <img
+                src="/Images/news-image 3.jpg"
+                alt="Trending"
+                class="trending-thumb"
+              />
+              <a href="#">Adobe Brings Co-Editing to Photoshop</a>
+            </div>
+
+            <div class="trending-item">
+              <img
+                src="/Images/news-image 3.jpg"
+                alt="Trending"
+                class="trending-thumb"
+              />
+              <a href="#">JavaScript's Next Big Leap in 2025</a>
+            </div>
+
+            <div class="trending-item">
+              <img
+                src="/Images/news-image 3.jpg"
+                alt="Trending"
+                class="trending-thumb"
+              />
+              <a href="#">Digital Nomad Tools You Should Know</a>
             </div>
           </div>
-        </div>
 
-        <!-- Post 3 -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="card h-100">
-            <img class="card-img-top" src="post3.jpg" alt="Post Image" />
-            <div class="card-body">
-              <h5 class="card-title">Digital Lifestyle Tips</h5>
-              <p class="card-text">
-                Stay productive, creative, and inspired in the digital world
-                with these tips...
-              </p>
-              <a href="#" class="btn btn-primary btn-sm">Read More</a>
-            </div>
+          <!-- Categories -->
+          <div class="categories-box">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="#">Tech News</a></li>
+              <li><a href="#">Design</a></li>
+              <li><a href="#">Digital Lifestyle</a></li>
+              <li><a href="#">Startups</a></li>
+              <li><a href="#">AI</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <!-- ABOUT US SECTION -->
+    <section class="about-section">
+      <div class="container">
+        <h2 class="about-heading">About Genz & Tech Daily</h2>
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <p class="about-text">
+              Genz & Tech Daily is your go-to hub for design, code, and digital
+              lifestyle content crafted for the next generation of thinkers and
+              creators.
+            </p>
+            <p class="about-text">
+              We believe tech shouldn't just be functional — it should be
+              inspiring. That’s why we’re curating fresh content that informs,
+              educates, and empowers digital minds to create, build, and live
+              smarter.
+            </p>
+          </div>
+          <div class="col-md-5 text-center">
+            <img
+              src="/Images/7951881_3796072.jpg"
+              alt="About us illustration"
+              class="about-img"
+            />
           </div>
         </div>
       </div>
-    </main>
+    </section>
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-box">
+          <h2 class="newsletter-heading">Stay Updated</h2>
+          <p class="newsletter-text">
+            Get the latest on design trends, coding tips, and digital lifestyle
+            hacks. Join our mailing list — straight to your inbox, once a week.
+          </p>
+          <form class="newsletter-form">
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
     <!-- FOOTER -->
     <footer class="text-center py-4">
