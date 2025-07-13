@@ -74,7 +74,7 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="home">
       <a class="navbar-brand-logo px-3" href="#"
         ><img
           src="/Images/genz logo dark blue.png"
@@ -95,11 +95,17 @@
 
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#news">News</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -203,7 +209,7 @@
     </section>
 
     <!-- BLOG POSTS -->
-    <main class="blog-section">
+    <main class="blog-section" id="blog">
       <div class="container">
         <div class="row">
           <!-- Blog Posts Column -->
@@ -232,7 +238,7 @@
                 the digital era.
               </p>
 
-              <a href="#" class="read-more">Read More →</a>
+              <a href="blogs.html" class="read-more">Read More →</a>
             </article>
 
             <article class="post">
@@ -259,7 +265,7 @@
                 than ever.
               </p>
 
-              <a href="#" class="read-more">Read More →</a>
+              <a href="blogs.html" class="read-more">Read More →</a>
             </article>
 
             <article class="post">
@@ -285,7 +291,7 @@
                 technology is quietly influencing every part of our lives.
               </p>
 
-              <a href="#" class="read-more">Read More →</a>
+              <a href="blogs.html" class="read-more">Read More →</a>
             </article>
 
             <!-- Add more posts here -->
@@ -350,7 +356,7 @@
     </main>
 
     <!-- NEWS CATEGORY -->
-    <main class="container news-category my-5">
+    <main class="container news-category my-5" id="news">
       <h1 class="mb-4 news-title">Latest News</h1>
       <div class="row">
         <!-- News 1 -->
@@ -483,7 +489,7 @@
     </main>
 
     <!-- ABOUT US SECTION -->
-    <section class="about-section">
+    <section class="about-section" id="about">
       <div class="container">
         <h2 class="about-heading">About Genz & Tech Daily</h2>
         <div class="row align-items-center">
@@ -534,7 +540,35 @@
 
     <!-- FOOTER -->
     <footer class="text-center py-4">
-      <p class="mb-0">&copy; 2025 Genz & Tech Daily. All rights reserved.</p>
+      <div class="footer-elements">
+        <img
+          src="/Images/genz logo.png"
+          width="100"
+          height="100"
+          alt=""
+          srcset=""
+          class="footer-logo"
+        />
+        <div class="footer-navs">
+          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" href="#">News</a>
+          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#">Contact Us</a>
+        </div>
+
+        <div class="footer-socials mb-5">
+          <a href="#"><img src="/Images/facebook icon.png" alt="Facebook" /></a>
+          <a href="#"><img src="/Images/X icon.png" alt="Twitter" /></a>
+          <a href="#"
+            ><img src="/Images/instagram icon.png" alt="Instagram"
+          /></a>
+          <a href="#"><img src="/Images/youtube icon.png" alt="Youtube" /></a>
+        </div>
+      </div>
+      <p class="mb-0" style="color: #f6761f">
+        &copy; 2025 Genz & Tech Daily. All rights reserved.
+      </p>
     </footer>
 
     <!-- Scripts -->

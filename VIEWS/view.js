@@ -23,3 +23,4 @@ setInterval(() => {
   currentIndex = (currentIndex + 1) % slides.length;
   showSlide(currentIndex);
 }, 10000);
+

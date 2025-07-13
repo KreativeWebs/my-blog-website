@@ -27,6 +27,10 @@
 
 /* THE END OF THE FONT STYLES */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans";
 }
@@ -420,7 +424,7 @@ h4 {
 }
 
 .newsletter-section {
-  background-color: black; 
+  background-color: black;
   padding: 60px 0;
   width: 100%;
   color: #fff;
@@ -486,5 +490,32 @@ h4 {
 
 footer {
   background-color: #02182f;
-  color: #fff;
+  padding-bottom: 100vh;
+}
+
+footer p {
+  color: #f2f3f4;
+}
+
+.footer-elements {
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-navs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-navs a {
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+
+.footer-socials img {
+  width: 20px;
+  height: 20px;
 }
